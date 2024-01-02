@@ -20,14 +20,14 @@ Make sure you have a C compiler installed. If not, install it using the package 
 
 Compilation Instructions:
 To compile the C program, use the following instructions:
-'gcc -o process_manager process_manager.c'.
+'gcc -o projectManagement.c'.
 
 
 
 
 Execution Instructions:
 To run the program, follow these steps:
-'./process_manager [num_processes]'
+'./projectManagement [num_processes]'
 Replace [num_processes] with the desired number of child processes (e.g., 1, 3, 5). This parameter controls the complexity of the process tree.
 
 
