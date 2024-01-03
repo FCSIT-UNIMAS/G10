@@ -87,10 +87,21 @@ Tool Usage (GDB):
 
 Contributors:
 --
-1.	Mohamad Shaziq Bin Mohamad Aziz (73558)  
+1.	Mohamad Shaziq Bin Mohamad Aziz (73558)
+
+  	| *Contribution:* Coding |
+
 2.  Muhammad Hafiz Bin Awang Arsat (75870)
+
+    | *Contribution:* Coding |
+   
 3.  Luqman Hafiz Bin Mohamad (75513)
+
+    | *Contribution:* Cooding |
+  
 4.  Aaron Arthur Anak Stanley John (73895)
+
+    | *Contribution:* Coding & Instruction/Description for README file |
 
 
 
