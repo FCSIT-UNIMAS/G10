@@ -66,16 +66,17 @@ int main() {
             exit(EXIT_FAILURE);
         }
 
-        if (childPID == 0) {  // Child process
-            displayProcessTree(i);
-            printf("created.\n");
+       if (childPID == 0) {  // Child process
+        pid_t parentPID = getppid();
+        displayProcessTree(i);
+        printf("created. Parent PID: %d\n", parentPID);
 
-            performTask(i);
+        performTask(i);
 
-            exit(EXIT_SUCCESS);
-        } else {  // Parent process
-            waitpid(childPID, NULL, 0);
-        }
+        exit(EXIT_SUCCESS);
+    } else {  // Parent process
+    waitpid(childPID, NULL, 0);
+}
     }
 
     printf("[Process Tree]\nParent PID: %d\n", getpid());
